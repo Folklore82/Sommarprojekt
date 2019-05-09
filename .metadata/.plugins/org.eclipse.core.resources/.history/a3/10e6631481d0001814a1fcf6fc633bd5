@@ -1,0 +1,18 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+	    Computer c1 = new Computer();
+	    PC pc1 = new PC();
+	    Computer pc2 = new PC();
+	    Macintosh mac1 = new Macintosh();
+	    Computer mac2 = new Macintosh();
+
+	    c1.printYourInventor();
+	    pc1.printYourInventor();
+	    pc2.printYourInventor();
+	    mac1.printYourInventor();
+	    mac2.printYourInventor();
+    }
+}

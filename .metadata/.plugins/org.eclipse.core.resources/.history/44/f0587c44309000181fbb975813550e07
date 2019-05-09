@@ -1,0 +1,21 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Elevator e1 = new Elevator();
+		e1.setFloor(5);
+		
+		Elevator e2 = new Elevator();
+		e2.floor = 10;
+		
+		e1.upAFloor();
+		
+		e2.downAFloor();
+		
+		System.out.println("Hiss 1 Våning: "+ e1.floor);
+		System.out.println("Hiss 2 Våning: "+ e2.floor);
+
+	}
+
+}
